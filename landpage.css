@@ -94,9 +94,10 @@ footer a {
     background-color: #323238;
     transition: all 0.4s ease-in-out;
     user-select: none; 
+    color: #E0E0D9;
 }
 
-.intern-div-header a {
+.intern-div-header {
     text-decoration: none;
 }
 
