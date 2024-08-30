@@ -432,6 +432,10 @@ background: url(imagens/AnaEstilosa.png) no-repeat center/cover;
         gap: 2rem
     }
 
+    .intern-div-header {
+        padding: 0.5rem;
+    }
+
     .div-left, .nav-search input{
         display: none;
     }
