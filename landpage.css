@@ -58,6 +58,11 @@ footer a {
     cursor: pointer;
 }
 
+.nav-header {
+    display: flex;
+    align-items: center;
+}
+
 .nav-search {
     background-color: #121214;
     display: flex;
@@ -67,7 +72,7 @@ footer a {
     width: 30%;
     position: absolute;
     left: 50%;
-    transform: translateX(-50%)
+    transform: translateX(-50%);
 }
 
 .nav-search img {
