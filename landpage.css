@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
+    font-family: "Plus Jakarta Sans", sans-serif
 }
 
 body {
@@ -68,7 +68,7 @@ footer a {
     display: flex;
     justify-content: left;
     padding: 0.5rem;
-    border-radius: 2px;
+    border-radius: 5px;
     width: 30%;
     position: absolute;
     left: 50%;
@@ -172,19 +172,20 @@ footer a {
 }
 
 .section-1 {
-    color: #E0E0E5;
+    color: rgb(225 225 230);
     grid-column: 1 / -1;
     grid-row: 1 / -2;
 }
 
 .section-1 h1 {
-    font-weight: 500;
+    font-weight: 400;
     margin-bottom: 4rem;
 }
 
 .section-1 h2 {
     font-weight: 500;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
+    color: #C4C4CC;
 }
 
 .div-section-1 {
@@ -224,7 +225,7 @@ footer a {
     grid-row: 2 / -1;
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-auto-rows: 25rem;
+    grid-auto-rows: 22rem;
     margin-top: 2rem;
     gap: 1rem;
 }
@@ -252,10 +253,15 @@ footer a {
 
 .div-section-2 p {
     -webkit-box-orient: vertical;
-    -webkit-line-clamp: 6;
+    -webkit-line-clamp: 4;
     display: -webkit-box;
     overflow: hidden;
     text-align: justify;
+    color: rgb(196 196 204);
+}
+
+.div-section-2 span {
+    color: #E0E0D9;
 }
 
 .section-3 {
