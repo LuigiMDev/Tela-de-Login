@@ -8,7 +8,7 @@
 }
 
 body {
-    background-color: #201b2c;
+    background-color: #121214;
 }
 
 main {
@@ -31,7 +31,7 @@ main {
 
 .left-login > h1 {
     font-size: 2.2vw;
-    color: #77ffc0;
+    color: #9861ef;
 }
 
 .imagem {
@@ -58,14 +58,19 @@ main {
     align-items: center;
     flex-direction: column;
     padding: 30px 35px;
-    background-color: #2f2841;
+    background-color: #1A1A1E;
     border-radius: 20px;
     box-shadow: 0px 10px 40px #00000056;
 }
 
 .card-login > h1 {
-    color: #00ff88;
+    color: #6F30D3;
     font-weight: 800;
+}
+
+.card-login a {
+    width: 100%;
+    margin: 25px;
 }
 
 .text-field {
@@ -82,7 +87,7 @@ main {
     border: none;
     border-radius: 10px;
     padding: 15px;
-    background-color: #514869;
+    background-color: #2f2f3c;
     color: #f0ffffde;
     outline: none;
     font-size: 12pt;
@@ -101,17 +106,24 @@ main {
 .button-login {
     width: 100%;
     padding: 16px 0px;
-    margin: 25px;
     border: none;
     outline: none;
     border-radius: 10px;
     font-weight: 800;
     text-transform: uppercase;
     letter-spacing: 3px;
-    color: #2b134b;
-    background-color: #00ff88;
+    color: #ffffff;
+    background-color: #6F30D3;
     cursor: pointer;
-    box-shadow: 0 10px 40px -12px #00ff8052;
+    box-shadow: 0 10px 40px -12px #5221a0;
+    transition: all 0.4s ease-in-out;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+}
+
+.button-login:hover{
+    box-shadow: 0 10px 40px 3px #5221a0;
 }
 
 @media only screen and (max-width: 950px){
